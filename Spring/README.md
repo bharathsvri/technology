@@ -42,6 +42,12 @@ This folder is a **deeper conceptual guide** to Spring Framework (IoC, MVC, WebF
 36. [Spring MVC produces consumes and Content Negotiation](36-Spring-MVC-produces-consumes-and-Content-Negotiation.md)
 37. [Spring AbstractRoutingDataSource](37-Spring-AbstractRoutingDataSource.md)
 38. [Spring Transactional Propagation and Isolation](38-Spring-Transactional-Propagation-and-Isolation.md)
+39. [Spring Order DependsOn and Bean Initialization](39-Spring-Order-DependsOn-and-Bean-Initialization.md)
+40. [Spring HttpMessageNotReadableException and Request Body Errors](40-Spring-HttpMessageNotReadableException-and-Request-Body-Errors.md)
+41. [ControllerAdvice Base Packages and Assignable Types](41-ControllerAdvice-Base-Packages-and-Assignable-Types.md)
+42. [Spring ResourceDatabasePopulator and EmbeddedDatabaseBuilder](42-Spring-ResourceDatabasePopulator-and-EmbeddedDatabaseBuilder.md)
+43. [Spring MVC DeferredResult and Callable](43-Spring-MVC-DeferredResult-and-Callable.md)
+44. [Spring Converter ConverterFactory and FormatterRegistry](44-Spring-Converter-ConverterFactory-and-FormatterRegistry.md)
 
 ## Related material in this repository
 

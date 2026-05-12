@@ -97,6 +97,18 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 
 56. **[Meet-in-the-Middle](56_Meet_in_the_Middle.md)** - Split enumeration; subset-sum style speedups
 
+57. **[Euler Tour and Subtree Queries](57_Euler_Tour_and_Subtree_Queries.md)** - Flatten trees for range queries on subtrees
+
+58. **[Sqrt Decomposition on Arrays](58_Sqrt_Decomposition_on_Arrays.md)** - Block aggregates; O(√n) update/query sketch
+
+59. **[Digit DP Introduction](59_Digit_DP_Introduction.md)** - Count numbers with digit constraints; tight/started states
+
+60. **[Monotonic Deque Sliding Window Maximum](60_Monotonic_Deque_Sliding_Window_Maximum.md)** - O(n) max in each window with deque
+
+61. **[LCA Binary Lifting Sketch](61_LCA_Binary_Lifting_Sketch.md)** - Jump pointers for ancestor queries
+
+62. **[Small To Large Merging on Trees](62_Small_To_Large_Merging_on_Trees.md)** - DSU-on-tree / merge smaller into larger maps
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet

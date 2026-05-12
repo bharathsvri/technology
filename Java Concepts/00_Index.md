@@ -181,6 +181,12 @@
 136. [Comparator and PriorityQueue Patterns](136_Comparator_and_PriorityQueue_Patterns.md) - Heaps, safe comparators
 137. [WatchService and File Change Notifications](137_WatchService_and_File_Change_Notifications.md) - NIO.2 directory watches
 138. [Suppressed Exceptions and Try with Resources](138_Suppressed_Exceptions_and_Try_with_Resources.md) - Primary vs cleanup failures
+139. [Optional Patterns and Anti Patterns](139_Optional_Patterns_and_Anti_Patterns.md) - API design; avoid Optional fields
+140. [Executors and VirtualThreadPerTaskExecutor](140_Executors_and_VirtualThreadPerTaskExecutor.md) - Pools vs Java 21 virtual threads
+141. [java.net.http HttpClient vs HttpURLConnection](141_java_net_http_HttpClient_vs_HttpURLConnection.md) - Modern HTTP client basics
+142. [Pattern Matching for switch Exhaustiveness](142_Pattern_Matching_for_switch_Exhaustiveness.md) - Sealed hierarchies and `case` patterns
+143. [Text Blocks Indentation and stripIndent](143_Text_Blocks_Indentation_and_stripIndent.md) - Readable embedded SQL/HTML
+144. [Charset StandardCharsets and Files readString](144_Charset_StandardCharsets_and_Files_readString.md) - Explicit UTF-8 at IO boundaries
 
 ## Learning Path
 
@@ -276,7 +282,7 @@
 - Structured Concurrency with StructuredTaskScope (Java 21+)
 - Scoped Values, Sequenced Collections, Panama FFM overview
 - Equals/hashCode contracts for robust domain models
-- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24), immutable collection views, CompletableFuture pitfalls, Unicode normalization, Java serialization pitfalls, FileChannel zero-copy, concurrent synchronizers, StampedLock, LinkedHashMap LRU, DST-aware time APIs, Comparator/PriorityQueue, WatchService, suppressed exceptions
+- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24), immutable collection views, CompletableFuture pitfalls, Unicode normalization, Java serialization pitfalls, FileChannel zero-copy, concurrent synchronizers, StampedLock, LinkedHashMap LRU, DST-aware time APIs, Comparator/PriorityQueue, WatchService, suppressed exceptions, Optional API hygiene, Executors and virtual threads, HttpClient migration, pattern matching `switch`, text blocks layout, Charset discipline
 
 ## Quick Reference
 

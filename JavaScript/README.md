@@ -48,6 +48,12 @@
 42. [Event Loop Macrotasks and Microtasks](42-Event-Loop-Macrotasks-and-Microtasks.md)
 43. [structuredClone vs JSON Clone](43-structuredClone-vs-JSON-Clone.md)
 44. [Import Maps and Bare Specifiers](44-Import-Maps-and-Bare-Specifiers.md)
+45. [ArrayBuffer TypedArrays and DataView](45-ArrayBuffer-TypedArrays-and-DataView.md)
+46. [queueMicrotask vs setTimeout Zero](46-queueMicrotask-vs-setTimeout-Zero.md)
+47. [Tagged Template Literals](47-Tagged-Template-Literals.md)
+48. [SameSite Cookies and document cookie](48-SameSite-Cookies-and-document-cookie.md)
+49. [Symbol species and Well Known Symbols](49-Symbol-species-and-Well-Known-Symbols.md)
+50. [Content Security Policy Basics](50-Content-Security-Policy-Basics.md)
 
 ## Related in this repository
 

@@ -24,6 +24,8 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - **JDBC pool tuning** with **HikariCP** (`79-Spring-Boot-HikariCP-and-Connection-Pool-Tuning.md`), **request tracing** with **MDC** (`80-Spring-Boot-Request-Tracing-and-MDC.md`), and **security filter chain** basics with **`OncePerRequestFilter`** (`81-Spring-Boot-OncePerRequestFilter-and-Security-Chain.md`).
 - **Native images** (`82-Spring-Boot-Native-Image-GraalVM-Overview.md`), **slice test boundaries** (`83-Spring-Boot-Slice-Tests-DataJpaTest-WebMvcTest.md`), and **configuration metadata** for IDE hints (`84-Spring-Boot-Configuration-Metadata-and-IDE-Hints.md`).
 - **Validation groups & custom constraints** (`85-Spring-Boot-Bean-Validation-Groups-and-Custom-Constraints.md`), **`@ConfigurationProperties` relaxed binding** (`86-Spring-Boot-ConfigurationProperties-Relaxed-Binding.md`), and **Actuator health groups for K8s probes** (`87-Spring-Boot-Health-Groups-and-Kubernetes-Probes.md`).
+- **Flyway operational hygiene** (`88-Spring-Boot-Flyway-Baseline-Repair-and-Out-of-Order.md`), **custom Micrometer metrics** (`89-Spring-Boot-Custom-Micrometer-Metrics.md`), and **build/git info** on Actuator (`90-Spring-Boot-Build-and-Git-Info-Actuator.md`).
+- **JPA fetch planning** (`91-Spring-Boot-JPA-N-plus-One-and-EntityGraph.md`), **WebClient** `retrieve` vs `exchangeToMono` (`92-Spring-Boot-WebClient-retrieve-vs-exchangeToMono.md`), and **management endpoint security** (`93-Spring-Boot-Management-Context-Path-and-Security.md`).
 
 ## All topics (numbered)
 
@@ -114,6 +116,12 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - [Spring Boot Bean Validation Groups and Custom Constraints](85-Spring-Boot-Bean-Validation-Groups-and-Custom-Constraints.md)
 - [Spring Boot ConfigurationProperties Relaxed Binding](86-Spring-Boot-ConfigurationProperties-Relaxed-Binding.md)
 - [Spring Boot Health Groups and Kubernetes Probes](87-Spring-Boot-Health-Groups-and-Kubernetes-Probes.md)
+- [Spring Boot Flyway Baseline Repair and Out of Order](88-Spring-Boot-Flyway-Baseline-Repair-and-Out-of-Order.md)
+- [Spring Boot Custom Micrometer Metrics](89-Spring-Boot-Custom-Micrometer-Metrics.md)
+- [Spring Boot Build and Git Info Actuator](90-Spring-Boot-Build-and-Git-Info-Actuator.md)
+- [Spring Boot JPA N plus One and EntityGraph](91-Spring-Boot-JPA-N-plus-One-and-EntityGraph.md)
+- [Spring Boot WebClient retrieve vs exchangeToMono](92-Spring-Boot-WebClient-retrieve-vs-exchangeToMono.md)
+- [Spring Boot Management Context Path and Security](93-Spring-Boot-Management-Context-Path-and-Security.md)
 
 ## Related material
 

@@ -38,6 +38,12 @@
 32. [React memo useMemo useCallback When They Help](32-React-memo-useMemo-useCallback-When-They-Help.md)
 33. [Zustand and Jotai Lightweight State](33-Zustand-and-Jotai-Lightweight-State.md)
 34. [MSW with React Testing Library](34-MSW-with-React-Testing-Library.md)
+35. [Storybook for React Components](35-Storybook-for-React-Components.md)
+36. [Vitest and Jest Mocking Patterns](36-Vitest-and-Jest-Mocking-Patterns.md)
+37. [forwardRef and Ref Forwarding Patterns](37-forwardRef-and-Ref-Forwarding-Patterns.md)
+38. [useOptimistic and useFormStatus React 19](38-useOptimistic-and-useFormStatus-React-19.md)
+39. [testing library user event vs fireEvent](39-testing-library-user-event-vs-fireEvent.md)
+40. [useSyncExternalStore and External Stores](40-useSyncExternalStore-and-External-Stores.md)
 
 ## Related
 

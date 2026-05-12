@@ -38,6 +38,12 @@ These notes are written for **interview revision**: each topic includes **trade-
 30. [Vue Runtime vs Compiler Build](30-Vue-Runtime-vs-Compiler-Build.md)
 31. [Vue Router Lazy Loading and Code Splitting](31-Vue-Router-Lazy-Loading-and-Code-Splitting.md)
 32. [Pinia Setup Stores vs Options Stores](32-Pinia-Setup-Stores-vs-Options-Stores.md)
+33. [shallowRef and shallowReactive](33-shallowRef-and-shallowReactive.md)
+34. [defineAsyncComponent Loading and Error UI](34-defineAsyncComponent-Loading-and-Error-UI.md)
+35. [v-bind in CSS SFC](35-v-bind-in-CSS-SFC.md)
+36. [Vite import meta env and Modes](36-Vite-import-meta-env-and-Modes.md)
+37. [Vue Router scrollBehavior](37-Vue-Router-scrollBehavior.md)
+38. [useSlots and useAttrs in script setup](38-useSlots-and-useAttrs-in-script-setup.md)
 
 ## Related
 

@@ -9,6 +9,9 @@ Short, interview-oriented notes for **written and spoken** communication in soft
 - [Remote and Async Communication](Remote_and_Async_Communication.md)
 - [Meetings and Status Updates](Meetings_and_Status_Updates.md)
 - [Presentations and Public Speaking](Presentations_and_Public_Speaking.md)
+- [Technical Vocabulary for Engineers](Technical_Vocabulary_for_Engineers.md)
+- [Slack and Async Written Communication](Slack_and_Async_Written_Communication.md)
+- [Active Listening for Engineers](Active_Listening_for_Engineers.md)
 
 ## Feedback, review, and collaboration
 
@@ -24,10 +27,13 @@ Short, interview-oriented notes for **written and spoken** communication in soft
 - [Negotiation and Prioritization for Engineers](Negotiation_and_Prioritization_for_Engineers.md)
 - [Estimation and T Shirt Sizing](Estimation_and_T_Shirt_Sizing.md)
 - [Stakeholder Communication for ICs](Stakeholder_Communication_for_ICs.md)
+- [Status Updates for Tech Leads](Status_Updates_for_Tech_Leads.md)
+- [Saying No with Alternatives and Tradeoffs](Saying_No_with_Alternatives_and_Tradeoffs.md)
 
 ## Writing, design docs, and career
 
 - [Technical Writing and Documentation](Technical_Writing_and_Documentation.md)
+- [Executive Summary in Emails and Docs](Executive_Summary_in_Emails_and_Docs.md)
 - [British and American English in Tech Writing](British_and_American_English_in_Tech_Writing.md)
 - [Writing RFCs and ADRs](Writing_RFCs_and_ADRs.md)
 - [Technical Interview STAR Stories](Technical_Interview_STAR_Stories.md)

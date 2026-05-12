@@ -86,6 +86,18 @@
 62. [Lazy Routes and loadComponent](62-Lazy-Routes-and-loadComponent.md)
 63. [Typed Reactive Forms and NonNullableFormBuilder](63-Typed-Reactive-Forms-and-NonNullableFormBuilder.md)
 
+### CDK, SSR transfer, and style encapsulation
+
+64. [CDK Overlay and OverlayContainer](64-CDK-Overlay-and-OverlayContainer.md)
+65. [TransferState and SSR State Hydration](65-TransferState-and-SSR-State-Hydration.md)
+66. [ViewEncapsulation Emulated None and ShadowDom](66-ViewEncapsulation-Emulated-None-and-ShadowDom.md)
+
+### A11y announcements, build config, and template outlets
+
+67. [LiveAnnouncer and aria-live Regions](67-LiveAnnouncer-and-aria-live-Regions.md)
+68. [fileReplacements and Environment Builds](68-fileReplacements-and-Environment-Builds.md)
+69. [NgTemplateOutlet and Template Context](69-NgTemplateOutlet-and-Template-Context.md)
+
 ## Related
 
 - [JavaScript fundamentals](../JavaScript/README.md)

@@ -191,6 +191,24 @@ This documentation provides comprehensive coverage of all major database concept
 37. **[37_WAITFOR_Delay_and_Time_Dependent_SQL.md](37_WAITFOR_Delay_and_Time_Dependent_SQL.md)**
     - `WAITFOR` for tests; avoid production sleeps holding locks
 
+38. **[38_OUTER_APPLY_vs_LEFT_JOIN_TopN.md](38_OUTER_APPLY_vs_LEFT_JOIN_TopN.md)**
+    - Lateral `APPLY` for correlated top-N per row
+
+39. **[39_IDENTITY_vs_SEQUENCE_Surrogate_Keys.md](39_IDENTITY_vs_SEQUENCE_Surrogate_Keys.md)**
+    - Surrogate key strategies; gaps and sharding awareness
+
+40. **[40_STRING_AGG_and_Ordered_Concatenation.md](40_STRING_AGG_and_Ordered_Concatenation.md)**
+    - Grouped string concat with `WITHIN GROUP` ordering
+
+41. **[41_XACT_ABORT_and_Batch_Transaction_Semantics.md](41_XACT_ABORT_and_Batch_Transaction_Semantics.md)**
+    - `SET XACT_ABORT` and predictable rollback with batches
+
+42. **[42_OPENJSON_JSON_VALUE_and_JSON_QUERY.md](42_OPENJSON_JSON_VALUE_and_JSON_QUERY.md)**
+    - Shredding JSON; scalar vs fragment extractors
+
+43. **[43_Statistics_UPDATE_and_Auto_Update.md](43_Statistics_UPDATE_and_Auto_Update.md)**
+    - `UPDATE STATISTICS`, sampling, and plan quality
+
 ## Quick Reference
 
 ### Stored Procedures
