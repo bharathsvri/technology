@@ -29,6 +29,15 @@
 23. [React Server Components Overview](23-React-Server-Components-Overview.md)
 24. [useLayoutEffect useImperativeHandle useId](24-useLayoutEffect-useImperativeHandle-useId.md)
 25. [Accessibility a11y in React](25-Accessibility-a11y-in-React.md)
+26. [useTransition useDeferredValue and Concurrent UI](26-useTransition-useDeferredValue-and-Concurrent-UI.md)
+27. [TanStack Query React Query Patterns](27-TanStack-Query-React-Query-Patterns.md)
+28. [Form Libraries react-hook-form and Zod](28-Form-Libraries-react-hook-form-and-Zod.md)
+29. [useReducer vs useState for Complex State](29-useReducer-vs-useState-for-Complex-State.md)
+30. [Web Vitals and React Performance Measurement](30-Web-Vitals-and-React-Performance-Measurement.md)
+31. [React Router Data APIs and Loaders](31-React-Router-Data-APIs-and-Loaders.md)
+32. [React memo useMemo useCallback When They Help](32-React-memo-useMemo-useCallback-When-They-Help.md)
+33. [Zustand and Jotai Lightweight State](33-Zustand-and-Jotai-Lightweight-State.md)
+34. [MSW with React Testing Library](34-MSW-with-React-Testing-Library.md)
 
 ## Related
 

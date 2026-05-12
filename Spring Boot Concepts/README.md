@@ -21,6 +21,9 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - **Declarative retries** with Spring Retry (`72-Spring-Boot-Spring-Retry.md`), **TLS bundles** (`73-Spring-Boot-SSL-Bundles.md`), **cluster-safe cron** with ShedLock (`74-Spring-Boot-ShedLock-Distributed-Scheduling.md`), and **slice MVC tests** (`75-Spring-Boot-MockMvc-and-WebMvcTest.md`).
 - **Reliable messaging** with the transactional **outbox** (`76-Spring-Boot-Outbox-Pattern.md`) and **safe retries** of mutating APIs via **idempotency keys** (`77-Spring-Boot-API-Idempotency-Keys.md`).
 - **Browser-facing API hardening** — **CORS** vs **CSRF** when using cookies (`78-Spring-Boot-CORS-CSRF-and-Browser-Security.md`).
+- **JDBC pool tuning** with **HikariCP** (`79-Spring-Boot-HikariCP-and-Connection-Pool-Tuning.md`), **request tracing** with **MDC** (`80-Spring-Boot-Request-Tracing-and-MDC.md`), and **security filter chain** basics with **`OncePerRequestFilter`** (`81-Spring-Boot-OncePerRequestFilter-and-Security-Chain.md`).
+- **Native images** (`82-Spring-Boot-Native-Image-GraalVM-Overview.md`), **slice test boundaries** (`83-Spring-Boot-Slice-Tests-DataJpaTest-WebMvcTest.md`), and **configuration metadata** for IDE hints (`84-Spring-Boot-Configuration-Metadata-and-IDE-Hints.md`).
+- **Validation groups & custom constraints** (`85-Spring-Boot-Bean-Validation-Groups-and-Custom-Constraints.md`), **`@ConfigurationProperties` relaxed binding** (`86-Spring-Boot-ConfigurationProperties-Relaxed-Binding.md`), and **Actuator health groups for K8s probes** (`87-Spring-Boot-Health-Groups-and-Kubernetes-Probes.md`).
 
 ## All topics (numbered)
 
@@ -102,6 +105,15 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - [Spring Boot Outbox Pattern](76-Spring-Boot-Outbox-Pattern.md)
 - [Spring Boot API Idempotency Keys](77-Spring-Boot-API-Idempotency-Keys.md)
 - [Spring Boot CORS CSRF and Browser Security](78-Spring-Boot-CORS-CSRF-and-Browser-Security.md)
+- [Spring Boot HikariCP and Connection Pool Tuning](79-Spring-Boot-HikariCP-and-Connection-Pool-Tuning.md)
+- [Spring Boot Request Tracing and MDC](80-Spring-Boot-Request-Tracing-and-MDC.md)
+- [Spring Boot OncePerRequestFilter and Security Chain](81-Spring-Boot-OncePerRequestFilter-and-Security-Chain.md)
+- [Spring Boot Native Image GraalVM Overview](82-Spring-Boot-Native-Image-GraalVM-Overview.md)
+- [Spring Boot Slice Tests DataJpaTest WebMvcTest](83-Spring-Boot-Slice-Tests-DataJpaTest-WebMvcTest.md)
+- [Spring Boot Configuration Metadata and IDE Hints](84-Spring-Boot-Configuration-Metadata-and-IDE-Hints.md)
+- [Spring Boot Bean Validation Groups and Custom Constraints](85-Spring-Boot-Bean-Validation-Groups-and-Custom-Constraints.md)
+- [Spring Boot ConfigurationProperties Relaxed Binding](86-Spring-Boot-ConfigurationProperties-Relaxed-Binding.md)
+- [Spring Boot Health Groups and Kubernetes Probes](87-Spring-Boot-Health-Groups-and-Kubernetes-Probes.md)
 
 ## Related material
 

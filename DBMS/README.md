@@ -164,6 +164,33 @@ This documentation provides comprehensive coverage of all major database concept
     - Dirty / non-repeatable / phantom reads vs isolation levels
     - Snapshot and locking trade-offs in SQL Server
 
+29. **[29_Normal_Forms_and_Denormalization.md](29_Normal_Forms_and_Denormalization.md)**
+    - 1NF–3NF intent; when denormalize for read performance
+
+30. **[30_Heap_vs_Clustered_Index_Structure.md](30_Heap_vs_Clustered_Index_Structure.md)**
+    - Heaps vs clustered tables; clustering key trade-offs
+
+31. **[31_Index_Maintenance_REBUILD_and_REORGANIZE.md](31_Index_Maintenance_REBUILD_and_REORGANIZE.md)**
+    - Fragmentation thresholds; `REBUILD` vs `REORGANIZE`
+
+32. **[32_PIVOT_UNPIVOT_and_Cross_Tab_Queries.md](32_PIVOT_UNPIVOT_and_Cross_Tab_Queries.md)**
+    - Cross-tab reporting; dynamic pivot awareness
+
+33. **[33_Covering_Indexes_and_INCLUDE_Columns.md](33_Covering_Indexes_and_INCLUDE_Columns.md)**
+    - Covering indexes; `INCLUDE` at leaf vs wide keys
+
+34. **[34_Parameter_Sniffing_and_OPTION_RECOMPILE.md](34_Parameter_Sniffing_and_OPTION_RECOMPILE.md)**
+    - Plan reuse pitfalls; `OPTION (RECOMPILE)` and alternatives
+
+35. **[35_SARGable_Predicates_and_Index_Seekability.md](35_SARGable_Predicates_and_Index_Seekability.md)**
+    - Predicate shapes that enable index seeks; common anti-patterns
+
+36. **[36_Hash_vs_Merge_Join_Sketch.md](36_Hash_vs_Merge_Join_Sketch.md)**
+    - Hash vs merge vs nested loops intuition; estimate sensitivity
+
+37. **[37_WAITFOR_Delay_and_Time_Dependent_SQL.md](37_WAITFOR_Delay_and_Time_Dependent_SQL.md)**
+    - `WAITFOR` for tests; avoid production sleeps holding locks
+
 ## Quick Reference
 
 ### Stored Procedures

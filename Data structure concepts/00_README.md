@@ -79,6 +79,24 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 
 47. **[Skip List](47_Skip_List.md)** - Probabilistic sorted map; expected logarithmic operations
 
+48. **[Treap (Cartesian Tree)](48_Treap_Cartesian_Tree.md)** - Randomized BST via heap priorities; splits/merges sketch
+
+49. **[k-d Tree (Nearest Neighbor)](49_KD_Tree_Nearest_Neighbor.md)** - Axis-aligned space partition; NN query intuition
+
+50. **[Centroid Decomposition (Sketch)](50_Centroid_Decomposition_Sketch.md)** - Tree divide-and-conquer for path queries
+
+51. **[Closest Pair of Points](51_Closest_Pair_of_Points_Divide_and_Conquer.md)** - Plane divide-and-conquer O(n log n) sketch
+
+52. **[Interval Scheduling](52_Interval_Scheduling_Maximum_Non_Overlapping.md)** - Greedy earliest-finish; weighted variant awareness
+
+53. **[Grid DP and Path Counting](53_Grid_DP_and_Path_Counting.md)** - Unique paths, min path sum; space rollups
+
+54. **[Rabin–Karp Rolling Hash](54_Rabin_Karp_Rolling_Hash.md)** - Rolling hash substring search; verification step
+
+55. **[Topological Sort — Kahn and DFS](55_Topological_Sort_Kahn_and_DFS.md)** - DAG ordering; cycle detection
+
+56. **[Meet-in-the-Middle](56_Meet_in_the_Middle.md)** - Split enumeration; subset-sum style speedups
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet

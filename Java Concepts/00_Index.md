@@ -172,6 +172,15 @@
 127. [Immutable Collections and Unmodifiable Views](127_Immutable_Collections_and_Unmodifiable_Views.md) - `List.of`, `copyOf`, view pitfalls
 128. [CompletableFuture Composition and Pitfalls](128_CompletableFuture_Composition_and_Pitfalls.md) - Async pipelines, executors, timeouts
 129. [Unicode Strings and Normalization](129_Unicode_Strings_and_Normalization.md) - Code points, NFC/NFD, collation basics
+130. [Java Serialization and serialVersionUID](130_Java_Serialization_and_serialVersionUID.md) - `Serializable` risks and evolution
+131. [FileChannel transferTo and Zero Copy](131_FileChannel_transferTo_and_Zero_Copy.md) - NIO channels and mapped files sketch
+132. [CountDownLatch CyclicBarrier and Phaser](132_CountDownLatch_CyclicBarrier_and_Phaser.md) - `j.u.c` group synchronizers
+133. [StampedLock vs ReentrantReadWriteLock](133_StampedLock_vs_ReentrantReadWriteLock.md) - Optimistic reads; API pitfalls
+134. [LinkedHashMap and LRU Ordering](134_LinkedHashMap_and_LRU_Ordering.md) - Access order maps; LRU pattern
+135. [java.time ZoneId and DST Edge Cases](135_java_time_ZoneId_and_DST_Edge_Cases.md) - ZonedDateTime; offset vs region rules
+136. [Comparator and PriorityQueue Patterns](136_Comparator_and_PriorityQueue_Patterns.md) - Heaps, safe comparators
+137. [WatchService and File Change Notifications](137_WatchService_and_File_Change_Notifications.md) - NIO.2 directory watches
+138. [Suppressed Exceptions and Try with Resources](138_Suppressed_Exceptions_and_Try_with_Resources.md) - Primary vs cleanup failures
 
 ## Learning Path
 
@@ -267,7 +276,7 @@
 - Structured Concurrency with StructuredTaskScope (Java 21+)
 - Scoped Values, Sequenced Collections, Panama FFM overview
 - Equals/hashCode contracts for robust domain models
-- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24), immutable collection views, CompletableFuture pitfalls, Unicode normalization
+- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24), immutable collection views, CompletableFuture pitfalls, Unicode normalization, Java serialization pitfalls, FileChannel zero-copy, concurrent synchronizers, StampedLock, LinkedHashMap LRU, DST-aware time APIs, Comparator/PriorityQueue, WatchService, suppressed exceptions
 
 ## Quick Reference
 

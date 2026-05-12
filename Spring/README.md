@@ -36,6 +36,12 @@ This folder is a **deeper conceptual guide** to Spring Framework (IoC, MVC, WebF
 30. [Spring Framework vs Spring Boot](30-Spring-Framework-vs-Spring-Boot.md)
 31. [Spring Cache Abstraction](31-Spring-Cache-Abstraction.md)
 32. [TaskExecutor and Async Scheduling](32-TaskExecutor-and-Async-Scheduling.md)
+33. [BeanPostProcessor and BeanFactoryPostProcessor](33-BeanPostProcessor-and-BeanFactoryPostProcessor.md)
+34. [HandlerInterceptor vs Servlet Filter](34-HandlerInterceptor-vs-Servlet-Filter.md)
+35. [Spring MVC Static Resources and ResourceHandlers](35-Spring-MVC-Static-Resources-and-ResourceHandlers.md)
+36. [Spring MVC produces consumes and Content Negotiation](36-Spring-MVC-produces-consumes-and-Content-Negotiation.md)
+37. [Spring AbstractRoutingDataSource](37-Spring-AbstractRoutingDataSource.md)
+38. [Spring Transactional Propagation and Isolation](38-Spring-Transactional-Propagation-and-Isolation.md)
 
 ## Related material in this repository
 

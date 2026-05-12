@@ -39,6 +39,15 @@
 33. [WeakRef and FinalizationRegistry](33-WeakRef-and-FinalizationRegistry.md)
 34. [Web Workers and structuredClone](34-Web-Workers-and-structuredClone.md)
 35. [Intl Localization and Temporal](35-Intl-Localization-and-Temporal.md)
+36. [Proxy and Reflect Metaprogramming](36-Proxy-and-Reflect-Metaprogramming.md)
+37. [Promise allSettled any and AggregateError](37-Promise-allSettled-any-and-AggregateError.md)
+38. [AbortController and Cancellation Patterns](38-AbortController-and-Cancellation-Patterns.md)
+39. [Top-level await in ES Modules](39-Top-level-await-in-ES-Modules.md)
+40. [Private Fields Static Blocks and Class Syntax](40-Private-Fields-Static-Blocks-and-Class-Syntax.md)
+41. [Error cause and Chained Errors](41-Error-cause-and-Chained-Errors.md)
+42. [Event Loop Macrotasks and Microtasks](42-Event-Loop-Macrotasks-and-Microtasks.md)
+43. [structuredClone vs JSON Clone](43-structuredClone-vs-JSON-Clone.md)
+44. [Import Maps and Bare Specifiers](44-Import-Maps-and-Bare-Specifiers.md)
 
 ## Related in this repository
 

@@ -29,6 +29,15 @@ These notes are written for **interview revision**: each topic includes **trade-
 21. [Vue Devtools Volar and defineModel](21-Vue-Devtools-Volar-and-defineModel.md)
 22. [Vue SSR and Nuxt Overview](22-Vue-SSR-and-Nuxt-Overview.md)
 23. [Vue Testing VTU and Async Patterns](23-Vue-Testing-VTU-and-Async-Patterns.md)
+24. [Vue Composables and VueUse Ecosystem](24-Vue-Composables-and-VueUse-Ecosystem.md)
+25. [Vue Render Functions and JSX](25-Vue-Render-Functions-and-JSX.md)
+26. [watch vs watchEffect Decision Guide](26-watch-vs-watchEffect-Decision-Guide.md)
+27. [Vue useTemplateRef and Script Setup Refs](27-Vue-useTemplateRef-and-Script-Setup-Refs.md)
+28. [KeepAlive Dynamic Components and Cache Rules](28-KeepAlive-Dynamic-Components-and-Cache-Rules.md)
+29. [Vue Router Navigation Guards and meta](29-Vue-Router-Navigation-Guards-and-meta.md)
+30. [Vue Runtime vs Compiler Build](30-Vue-Runtime-vs-Compiler-Build.md)
+31. [Vue Router Lazy Loading and Code Splitting](31-Vue-Router-Lazy-Loading-and-Code-Splitting.md)
+32. [Pinia Setup Stores vs Options Stores](32-Pinia-Setup-Stores-vs-Options-Stores.md)
 
 ## Related
 

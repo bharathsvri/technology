@@ -68,6 +68,24 @@
 53. [RxJS to Signals Interop](53-RxJS-to-Signals-Interop.md)
 54. [Component Harnesses and CDK Testing](54-Component-Harnesses-and-CDK-Testing.md)
 
+### DI, RxJS internals, and platform tooling
+
+55. [InjectionToken and multi-providers](55-InjectionToken-and-multi-providers.md)
+56. [RxJS Hot Cold and multicast](56-RxJS-Hot-Cold-and-multicast.md)
+57. [Angular Schematics and Workspace Code Generation](57-Angular-Schematics-and-Workspace-Code-Generation.md)
+
+### Images, routing metadata, and HTTP testing
+
+58. [NgOptimizedImage and Loading Priorities](58-NgOptimizedImage-and-Loading-Priorities.md)
+59. [Functional Routers and Route Data](59-Functional-Routers-and-Route-Data.md)
+60. [Angular Testing HttpClientTestingController](60-Angular-Testing-HttpClientTestingController.md)
+
+### Change detection, routing, and typed forms
+
+61. [AsyncPipe and Change Detection](61-AsyncPipe-and-Change-Detection.md)
+62. [Lazy Routes and loadComponent](62-Lazy-Routes-and-loadComponent.md)
+63. [Typed Reactive Forms and NonNullableFormBuilder](63-Typed-Reactive-Forms-and-NonNullableFormBuilder.md)
+
 ## Related
 
 - [JavaScript fundamentals](../JavaScript/README.md)
