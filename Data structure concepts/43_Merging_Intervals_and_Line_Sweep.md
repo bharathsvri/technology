@@ -1,25 +1,56 @@
 # Merging Intervals and Line Sweep Patterns
 
-Given a list of intervals **[l, r]**, common tasks are: **merge overlaps**, find **gaps**, compute **maximum overlap depth**, or build a **union length**.
+Intervals **[l, r]** appear constantly in scheduling, resource allocation, and geometry prep. Master **merge**, **union length**, and **event sweep** for overlap depth.
 
-## Merge Intervals (Classic)
-1. **Sort** by start time `l` (tie-break by `r`).
-2. Sweep left to right maintaining **`current`** merged interval.
-3. If next interval **overlaps** `current` (`next.l <= current.r` with inclusive semantics), **extend** `current.r = max(current.r, next.r)`; else **push** `current` and start a new one.
+---
 
-**Time**: **O(n log n)** from sorting, **O(n)** sweep.
+## Merge overlapping intervals
 
-## Union Length
-After merging, sum **`r - l`** (with consistent half-open vs closed interval conventions).
+1. **Sort** by **start** **l** (tie-break by **r** if you like).
+2. Maintain **`current`** = first interval.
+3. For each **next**:
+   - If **next.l ≤ current.r** (for **closed** **[l,r]**; adjust for half-open), they **overlap** → set **`current.r = max(current.r, next.r)`**.
+   - Else **push** `current`, set **`current = next`**.
 
-## Maximum Concurrent Events
-Convert to **point events** `(time, +1/-1)` and sweep—see `38_Sweep_Line_Algorithm.md`.
+**Time**: **O(n log n)** sort + **O(n)** scan.
 
-## Common Pitfalls
-- **Inclusive vs half-open** `[l, r)` avoids off-by-one in many implementations.
-- Floating-point boundaries—prefer integers or rational types.
+---
 
-## Related Topics
+## Union length
+
+After merging, sum **(r − l)** (or half-open **r − l** without +1). Keep **closed vs [l,r)** consistent everywhere.
+
+---
+
+## Insert interval into a merged list
+
+If intervals stay sorted and disjoint, **binary search** insertion point then **merge** neighbors — useful for streaming APIs.
+
+---
+
+## Maximum concurrent / overlap depth
+
+**Line sweep** on events:
+
+- **(l, +1)** start
+- **(r, −1)** end — for **closed** **[l,r]**, use **(r+1, −1)** or prefer **half-open [l, r+1)** to avoid fence errors.
+
+Sort events, sweep running **active** count, track **max**.
+
+See also `38_Sweep_Line_Algorithm.md`.
+
+---
+
+## Common pitfalls
+
+- **Inclusive endpoints**: `[1,2]` and `[2,3]` overlap at point **2**.
+- **Floating-point** boundaries → prefer integers or rationals.
+- **Empty list** and **single interval** edge cases.
+
+---
+
+## Related
+
 - `38_Sweep_Line_Algorithm.md`
 - `16_Greedy_Algorithms.md`
 - `19_Two_Pointers_Technique.md`

@@ -1,25 +1,45 @@
 # Sweep Line Algorithm
 
-**Sweep line** algorithms process geometric or interval events in sorted order, maintaining a **dynamic structure** (often a balanced BST, indexed tree, or segment tree) of the “active” set.
+**Sweep line** algorithms process **events** (interval start/end, segment endpoints) in sorted order while maintaining a **dynamic structure** of the active set.
 
-## Typical Use Cases
-- Counting **overlapping intervals** or maximum overlap depth.
-- **Rectangle union area/perimeter** (with segment tree or coordinate compression).
-- **Closest pair of points** (combine with divide & conquer).
+---
 
-## Core Steps
-1. **Create events**: e.g., for interval `[L,R)`, emit `(L, +1)` and `(R, -1)` on a 1D line.
-2. **Sort events** by coordinate; break ties consistently (end before start, or vice versa—problem dependent).
-3. **Sweep**: update a running aggregate (active count, max height) as events are processed.
+## Typical problems
 
-## Example Sketch: Max Concurrent Intervals
-- Events: start `+1`, end `-1` after sorting by time.
-- Track **running sum**; global max is peak concurrency.
+- Maximum **overlap** of intervals on 1D line.
+- **Rectangle union** area (often + segment tree / coordinate compression on y).
+- **Closest pair of points** (combine with divide & conquer in some solutions).
 
-## Complexity
-Usually **O(n log n)** from sorting; structure updates may add log factors.
+---
 
-## Related Topics
-- `16_Greedy_Algorithms.md`
-- `26_Segment_Tree.md` (when y-dimension needs range structure)
-- `18_Divide_and_Conquer.md`
+## 1D interval overlap depth
+
+Convert each interval `[L,R)` to events:
+
+- `(L, +1)` start
+- `(R, -1)` end
+
+Sort by coordinate; break ties consistently (**end before start** avoids over-counting depending on problem statement).
+
+Sweep cumulative sum **active**; track **max**.
+
+**Time**: **O(n log n)** for sort + **O(n)** sweep.
+
+---
+
+## Geometry sweep
+
+Sort events by **x**, maintain **active segments** in a balanced structure keyed by **y** order for intersections—harder; know it exists for “advanced” interviews.
+
+---
+
+## Implementation tips
+
+- Use **half-open** intervals `[L,R)` to reduce endpoint bugs.
+- **Coordinate compression** when coordinates are huge but **few** distinct values.
+
+---
+
+## Related
+
+- `43_Merging_Intervals_and_Line_Sweep.md`, `16_Greedy_Algorithms.md`, `26_Segment_Tree.md`

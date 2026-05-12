@@ -1,15 +1,61 @@
 # Transitions and Animation
 
-## `<Transition>`
+Vue’s **`<Transition>`** and **`<TransitionGroup>`** components apply **CSS classes** or **JS hooks** around **enter/leave** of elements — good for **modals**, **lists**, and **route transitions**.
 
-Enter/leave classes `v-enter-active`, `v-leave-active`, etc., or named `name="fade"`.
+---
 
-## `<TransitionGroup>`
+## `<Transition>` basics
 
-For lists with `key` on children for move animations.
+```html
+<Transition name="fade">
+  <p v-if="show">hello</p>
+</Transition>
+```
 
-## JS hooks
+**CSS** (name prefix):
 
-`@before-enter`, `@enter`, `@after-enter` for integrating libraries like GSAP.
+```css
+.fade-enter-active, .fade-leave-active { transition: opacity 0.3s; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+```
+
+Vue 3 uses **`*-enter-from` / `*-leave-to`** naming (older `*-enter` aliases exist for compat).
+
+---
+
+## `mode="out-in"`
+
+Animate **old** out before **new** in — avoids overlapping layout jumps.
+
+---
+
+## `<TransitionGroup>` for lists
+
+- Children need **stable `:key`**.
+- **FLIP** move animations for reordering.
+
+---
+
+## JavaScript hooks
+
+```html
+<Transition
+  @before-enter="onBeforeEnter"
+  @enter="onEnter"
+  @after-enter="onAfterEnter"
+/>
+```
+
+Integrate **GSAP** / **motion** libraries when CSS is not enough.
+
+---
+
+## Performance
+
+Prefer **`transform` / `opacity`** for smooth GPU-friendly transitions.
+
+---
+
+## Related
 
 Next: [Teleport and Suspense](17-Teleport-and-Suspense.md).

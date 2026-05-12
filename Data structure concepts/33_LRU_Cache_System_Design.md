@@ -1,39 +1,53 @@
-# LRU Cache (Concept + System Design)
+# LRU Cache — Design and Implementation
 
-## Requirements (Typical Interview Spec)
-Implement **Least Recently Used (LRU)** cache with:
-- `get(key)` → value or miss
-- `put(key, value)` → evicts LRU item if at capacity
-All operations **O(1)** average.
+**LRU (Least Recently Used)** evicts the item that has not been used for the longest time when capacity is exceeded. Classic interview: implement **O(1)** `get` and `put`.
 
-## Data Structures
-Combine:
-1. **Hash map** from `key` → **list node** (or key → value + linked position).
-2. **Doubly linked list** of keys ordered from **MRU (head)** to **LRU (tail)**.
+---
 
-### Why Doubly Linked?
-You must **detach** a node in **O(1)** when promoting it to most-recently-used after a `get` or `put`.
+## Requirements (restated)
 
-## Operations
-- **get hit**: move node to MRU side.
-- **get miss**: return sentinel (e.g., `-1`).
-- **put**:
-  - If key exists, update value + promote to MRU.
-  - Else insert new node at MRU; if size > capacity, **remove LRU tail** and delete its key from map.
+- `get(key)` → value or miss indicator.
+- `put(key, value)` → insert or update; if size **> capacity**, evict **LRU** entry.
+- All operations **O(1)** average.
 
-## JDK Alternative (Know the Semantics)
-`LinkedHashMap` with `accessOrder=true` and `removeEldestEntry` can implement LRU quickly for prototypes, but interviews usually want the **explicit** list + map model.
+---
 
-## System Design Angles
-- **Distributed LRU**: not exact without shared state; use **Redis** `volatile-lru` / `allkeys-lru` or client-side caches with TTLs.
-- **Stampede prevention**: singleflight / locks around rebuild of hot keys.
-- **Eviction policy trade-offs**: LRU vs LFU vs **TinyLFU** (Caffeine) in JVM apps.
+## Data structures
+
+1. **Hash map**: `key → list node` (or key → value + node pointer).
+2. **Doubly linked list**: nodes ordered **MRU (head)** → **LRU (tail)**.
+
+**Why doubly linked?** Remove a node in **O(1)** when promoting on `get` or updating on `put`.
+
+### Operations sketch
+
+- **get hit**: move node to MRU side (detach + insert front).
+- **put new when full**: evict **tail** (LRU), remove its key from map, then insert new at head.
+- **put existing**: update value + move to MRU.
+
+---
 
 ## Complexity
-- Time: **O(1)** average per op (hash map + pointer updates).
+
+- Time: **O(1)** average per op (hash + pointer updates).
 - Space: **O(capacity)**.
 
-## Related Topics
-- `12_Maps_Dictionaries.md`
-- `02_Linked_Lists.md`
-- [Spring Boot — Redis](../Spring%20Boot%20Concepts/29-Spring-Boot-Redis.md) for operational caching patterns
+---
+
+## Distributed / system design angle
+
+- **Single JVM**: this structure is enough.
+- **Distributed cache** (Redis, Memcached): LRU is **approximate** per node; use **TTL**, **consistent hashing**, **singleflight** for hot keys.
+- **Stampede**: many clients miss cache simultaneously — **probabilistic early expiration**, locks, or **request coalescing**.
+
+---
+
+## JDK note
+
+`LinkedHashMap` with `accessOrder=true` and `removeEldestEntry` implements LRU for prototypes; interviews usually want **explicit** list + map.
+
+---
+
+## Related
+
+- `12_Maps_Dictionaries.md`, `02_Linked_Lists.md`, `08_Hash_Tables.md`

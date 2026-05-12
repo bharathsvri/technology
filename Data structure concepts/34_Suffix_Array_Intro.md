@@ -1,37 +1,49 @@
-# Suffix Array and Suffix Tree (Introduction)
+# Suffix Array — Introduction
 
-## Motivation
-Many **string** problems—repeated substrings, longest common substring across strings, pattern occurrences with preprocessing—benefit from indexing all suffixes.
+A **suffix array** is a sorted list of the starting positions of all suffixes of a string. Together with an **LCP (longest common prefix) array**, it powers many **string** interview problems and bioinformatics indexes.
 
-Two classic structures:
-- **Suffix trie/tree**: intuitive but heavy on memory for large alphabets.
-- **Suffix array**: compact, powerful with companion **LCP** array.
+---
 
-## Suffix Array Definition
-For a string **S** of length **n**, the **suffix array SA** is a permutation of indices `0..n-1` sorting all suffixes **lexicographically**.
+## What is a suffix array?
 
-Example: `S = "banana$"` (sentinel `$` smaller than letters)
+For text **T** of length **n**, list all suffixes **T[i..n-1]** for **i = 0..n-1**. Sort them lexicographically. The **suffix array SA** stores the **starting indices** in sorted order.
 
-Sorted suffixes begin at indices ending with SA like `[5,3,1,0,4,2]` (illustrative—verify locally).
+A **sentinel** `$` (unique, smallest) is often appended so no suffix is a prefix of another.
 
-## Longest Common Prefix (LCP) Array
-**LCP[i]** = length of longest common prefix between `SA[i]` and `SA[i-1]`.
+---
 
-Enables linear-time solutions to many problems **after O(n log n) or O(n)** construction, depending on algorithm.
+## LCP array
 
-## Construction Sketches
-1. **Naive**: sort `n` suffixes with `O(n)` comparator → **O(n² log n)**—too slow for large **n**.
-2. **Doubling / prefix ranking**: iterative ranking of length-`2^k` prefixes → **O(n log n)**.
-3. **SA-IS / skew** (advanced): **O(n)**; implementation-heavy.
+**Height array / LCP**: `LCP[k]` = longest common prefix of the **k-th** and **(k-1)-th** sorted suffixes.
 
-## Typical Use Cases
-- **Longest repeated substring** (max LCP).
-- **Longest common substring** of two strings: build suffix array on `S1#S2$` and restrict LCP to pairs crossing the separator.
-- **Pattern matching** with the array + binary search on pattern vs suffix range.
+**Why useful?** Many combinatorial string questions reduce to **range max query** on LCP or scanning LCP once.
 
-## Practical Note
-For competitive programming, **rolling hash** + binary search often substitutes when constraints allow collision risk management. For bioinformatics-scale data, specialized libraries build suffix arrays/FM-indexes.
+---
 
-## Related Topics
-- `21_String_Algorithms.md`
-- `29_Manacher_Algorithm.md`
+## Construction complexity (interview)
+
+| Algorithm | Time | Notes |
+|-----------|------|--------|
+| Naive sort suffixes | **O(n² log n)** | bad comparator cost |
+| Doubling / prefix ranking | **O(n log n)** | common teaching construction |
+| SA-IS / skew | **O(n)** | heavy to implement cold |
+
+---
+
+## Applications (name them)
+
+1. **Longest repeated substring** — max LCP.
+2. **Longest common substring** of two strings — concatenate with separators; max LCP crossing boundary.
+3. **Distinct substrings** — formula using LCP sums (classic exercise).
+
+---
+
+## Comparison to trie of suffixes
+
+**Suffix trie** intuitive but huge memory. **Suffix array + LCP** is compact; **FM-index** goes further for DNA-scale search.
+
+---
+
+## Related
+
+- `21_String_Algorithms.md`, `44_Bit_Trie_XOR_Maximum.md` (different domain), `28_Advanced_Graph_Algorithms.md`

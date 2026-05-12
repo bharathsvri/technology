@@ -1,31 +1,64 @@
 # Matrix Exponentiation
 
-**Matrix exponentiation** computes **M^n** in **O(k³ log n)** for **k×k** matrices using **binary exponentiation**—essential for linear recurrences (Fibonacci), graph **walk counts**, and some DP optimizations.
+**Matrix exponentiation** computes **M^n** for a **k × k** matrix in **O(k³ log n)** using **binary exponentiation** (same doubling idea as fast integer power). It encodes **linear recurrences** and **bounded-state transitions**.
 
-## Binary Exponentiation Idea
+---
+
+## Binary exponentiation on matrices
 
 ```text
-M^n = M^(binary expansion)
+result = I (identity)
+base = M
+while n > 0:
+    if n is odd: result = result * base
+    base = base * base
+    n /= 2
 ```
 
-Multiply running result when the corresponding bit of **n** is set—same pattern as fast integer power.
+Each **multiply** is **O(k³)** naively; **k** is often small (2–5) in contest/interview problems.
 
-## Fibonacci Example
+---
+
+## Fibonacci (2×2 form)
+
+One standard formulation:
+
 \[
-\begin{pmatrix} F_{n+1} & F_n \end{pmatrix}
+\begin{pmatrix} F_{n+1} & F_n \\ F_n & F_{n-1} \end{pmatrix}
 =
 \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}^n
-\begin{pmatrix} 1 & 0 \end{pmatrix}
 \]
-(Exact layout conventions vary—verify matrix formulation for your recurrence.)
 
-## Graph: Paths of Length L
-If **A** is an adjacency matrix (0/1 or weighted with counting semantics), **(A^L)[i][j]** counts **walks** of length **L** from **i** to **j** in **O(V³ log L)** dense form—often too heavy; use when **V** is small.
+(Layouts differ across sources — **verify** before coding.)
 
-## Modular Arithmetic
-When answers require **mod p**, reduce every multiply/add to avoid overflow; use **`long`** intermediates or `BigInteger` for contests.
+**Complexity**: **O(log n)** multiplies of **2×2** → **O(1)** per multiply → **O(log n)** time.
 
-## Related Topics
+---
+
+## Graph: walks of length L
+
+If **A** is an adjacency matrix (**A[u][v] = 1** if edge **u→v**), then **(A^L)[i][j]** counts **walks** of length **L** from **i** to **j** (combinatorially; watch multigraph conventions).
+
+**Cost**: **O(V³ log L)** dense — only feasible for **small V** or sparse tricks elsewhere.
+
+---
+
+## Modular arithmetic and overflow
+
+- Reduce mod **p** after every add/mul in contests.
+- Use **64-bit** intermediates or language **bigint** when products overflow.
+
+---
+
+## When to mention in interviews
+
+- “**Linear recurrence** with huge **n**” → matrix form + fast pow.
+- “**DP over n steps** with **fixed small state**” → sometimes linear transform + exponentiation.
+
+---
+
+## Related
+
 - `15_Dynamic_Programming.md`
-- `23_Bit_Manipulation.md` (binary exponent pattern)
+- `23_Bit_Manipulation.md` (binary exponent pattern on integers)
 - `28_Advanced_Graph_Algorithms.md`

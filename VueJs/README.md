@@ -2,6 +2,8 @@
 
 **Vue** is a progressive framework for building UIs: **Options API** or **Composition API**, **single-file components (`.vue`)**, reactivity system, router, and official state library **Pinia**.
 
+These notes are written for **interview revision**: each topic includes **trade-offs**, **pitfalls**, and how pieces connect (**reactivity → template → router/store**), not just one-line definitions.
+
 ## Table of contents
 
 1. [Introduction to Vue](01-Introduction-to-Vue.md)

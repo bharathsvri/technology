@@ -1,33 +1,51 @@
-# Order Statistics and Quickselect
+# Order Statistics — Quickselect (k-th Smallest)
 
-## Problem
-Find the **k-th smallest** element in an unsorted array (1-indexed or 0-indexed by convention).
+**Problem**: Given an unsorted array, find the **k-th smallest** element (1-based or 0-based by convention). **Naive**: sort **O(n log n)** and index. **Quickselect** (Hoare’s selection): **expected O(n)**, **worst O(n²)** without randomized pivot.
 
-Naive approach: sort in **O(n log n)** and pick index **k-1**.
+---
 
-**Quickselect** achieves **average O(n)** time by borrowing partitioning from quicksort without recursing on both sides.
+## Core idea (Lomuto-style outline)
 
-## Core Idea (Lomuto-style Outline)
-1. Pick a **pivot** (randomized pivot reduces adversarial inputs).
-2. **Partition** so elements `< pivot` are left, `≥` pivot right.
-3. Let `p` be the pivot’s final index:
-   - If `p == k-1`, return `a[p]`.
-   - If `k-1 < p`, recurse left subarray.
-   - Else recurse right subarray for adjusted **k**.
+1. Pick a **pivot** (random index reduces adversarial worst case).
+2. **Partition** so elements `< pivot` are left, `≥` pivot right; pivot lands at index **`p`**.
+3. If **`p == k-1`**, return `a[p]`.
+4. If **`k-1 < p`**, recurse **left** only.
+5. Else recurse **right** for **adjusted k**.
+
+Only **one** branch recurses → expected linear work (geometrically shrinking subproblem sizes).
+
+---
 
 ## Complexity
-- **Average time**: **O(n)** (geometrically shrinking subproblems).
-- **Worst time**: **O(n²)** with bad pivots—**randomize** or use median-of-medians pivot selection for **worst-case O(n)** (more complex, rare in interviews except conceptually).
 
-## Variants
-- **Quickselect on a copy** when mutating input is disallowed.
-- **Partial sort / `nth_element`** in C++; Java has `Arrays.sort` full sort—implement quickselect manually or use a **heap** of size **k** for streaming top-k.
+| | Time | Space |
+|---|------|--------|
+| **Average** | **O(n)** | **O(log n)** stack if random pivots balance; **O(n)** worst stack if always skewed |
+| **Worst** | **O(n²)** | bad pivots every time |
 
-## Related: Quickselect vs Heap for Top-K
-- **Quickselect**: **O(n)** average for single order statistic on materialized array.
-- **Min-heap of size k**: **O(n log k)** for **largest k** elements; better when **n** is huge streaming.
+### Deterministic **O(n)** median-of-medians
 
-## Related Topics
-- `13_Sorting_Algorithms.md` (partitioning)
-- `14_Searching_Algorithms.md`
-- `09_Heaps.md`
+Select pivot using **median of medians** — rarely required in interviews except conceptually.
+
+---
+
+## vs Heap for “top K”
+
+| Approach | Best when |
+|----------|-----------|
+| **Quickselect** | Single **k** on an **array in memory** |
+| **Min-heap size K** | **Streaming** n huge, want **largest K** |
+| **Max-heap size K** | **Smallest K** |
+
+---
+
+## Interview pitfalls
+
+- Off-by-one on **k** vs 0-based index.
+- Integer overflow in **`mid = (lo + hi + 1) / 2`** variants for lower/upper bound binary search patterns (different problem but same care).
+
+---
+
+## Related
+
+- `13_Sorting_Algorithms.md`, `14_Searching_Algorithms.md`, `09_Heaps.md`
