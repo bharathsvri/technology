@@ -73,6 +73,12 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 
 44. **[Bit Trie (XOR Maximum)](44_Bit_Trie_XOR_Maximum.md)** - Binary trie for max XOR pairs and variants
 
+45. **[Aho–Corasick Multi-Pattern Matching](45_Aho_Corasick_Multi_Pattern_Matching.md)** - Multi-pattern linear scan with trie failure links
+
+46. **[Z-Algorithm](46_Z_Algorithm.md)** - Prefix–substring Z-array in linear time; pattern matching
+
+47. **[Skip List](47_Skip_List.md)** - Probabilistic sorted map; expected logarithmic operations
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet

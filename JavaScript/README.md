@@ -36,6 +36,9 @@
 30. [Node.js and npm Overview](30-Node-js-and-npm-Overview.md)
 31. [Modules Dynamic import](31-Dynamic-import.md)
 32. [Performance and Debugging Tips](32-Performance-and-Debugging-Tips.md)
+33. [WeakRef and FinalizationRegistry](33-WeakRef-and-FinalizationRegistry.md)
+34. [Web Workers and structuredClone](34-Web-Workers-and-structuredClone.md)
+35. [Intl Localization and Temporal](35-Intl-Localization-and-Temporal.md)
 
 ## Related in this repository
 

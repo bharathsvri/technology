@@ -62,6 +62,12 @@
 50. [Zone.js and Zoneless Change Detection](50-Zone-js-and-Zoneless.md)
 51. [@defer Lazy Template Blocks](51-defer-Blocks-Lazy-Templates.md)
 
+### Packaging, interop, and testing ergonomics
+
+52. [Angular Elements and Micro-frontends](52-Angular-Elements-and-Micro-frontends.md)
+53. [RxJS to Signals Interop](53-RxJS-to-Signals-Interop.md)
+54. [Component Harnesses and CDK Testing](54-Component-Harnesses-and-CDK-Testing.md)
+
 ## Related
 
 - [JavaScript fundamentals](../JavaScript/README.md)

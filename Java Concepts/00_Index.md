@@ -169,6 +169,9 @@
 124. [BigDecimal Precision and RoundingMode](124_BigDecimal_Precision_Scale_and_RoundingMode.md) - Financial decimals without double surprises
 125. [TLS Keystores, keytool, and Truststores](125_TLS_Keystores_Keytool_and_Truststores.md) - PKCS12, keytool, server/client TLS basics
 126. [Stream Gatherers Overview](126_Stream_Gatherers_Overview.md) - Custom intermediate stream operations (JDK 24, JEP 485)
+127. [Immutable Collections and Unmodifiable Views](127_Immutable_Collections_and_Unmodifiable_Views.md) - `List.of`, `copyOf`, view pitfalls
+128. [CompletableFuture Composition and Pitfalls](128_CompletableFuture_Composition_and_Pitfalls.md) - Async pipelines, executors, timeouts
+129. [Unicode Strings and Normalization](129_Unicode_Strings_and_Normalization.md) - Code points, NFC/NFD, collation basics
 
 ## Learning Path
 
@@ -264,7 +267,7 @@
 - Structured Concurrency with StructuredTaskScope (Java 21+)
 - Scoped Values, Sequenced Collections, Panama FFM overview
 - Equals/hashCode contracts for robust domain models
-- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24)
+- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24), immutable collection views, CompletableFuture pitfalls, Unicode normalization
 
 ## Quick Reference
 

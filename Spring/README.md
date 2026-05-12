@@ -34,6 +34,8 @@ This folder is a **deeper conceptual guide** to Spring Framework (IoC, MVC, WebF
 28. [WebClient](28-WebClient.md)
 29. [RestTemplate and HTTP Clients](29-RestTemplate-and-HTTP-Clients.md)
 30. [Spring Framework vs Spring Boot](30-Spring-Framework-vs-Spring-Boot.md)
+31. [Spring Cache Abstraction](31-Spring-Cache-Abstraction.md)
+32. [TaskExecutor and Async Scheduling](32-TaskExecutor-and-Async-Scheduling.md)
 
 ## Related material in this repository
 

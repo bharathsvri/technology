@@ -19,6 +19,8 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - **Liveness/readiness** through Actuator availability (`70-Spring-Boot-Availability-Probes.md`).
 - **Modular monolith** boundaries with Spring Modulith (`71-Spring-Boot-Spring-Modulith.md`).
 - **Declarative retries** with Spring Retry (`72-Spring-Boot-Spring-Retry.md`), **TLS bundles** (`73-Spring-Boot-SSL-Bundles.md`), **cluster-safe cron** with ShedLock (`74-Spring-Boot-ShedLock-Distributed-Scheduling.md`), and **slice MVC tests** (`75-Spring-Boot-MockMvc-and-WebMvcTest.md`).
+- **Reliable messaging** with the transactional **outbox** (`76-Spring-Boot-Outbox-Pattern.md`) and **safe retries** of mutating APIs via **idempotency keys** (`77-Spring-Boot-API-Idempotency-Keys.md`).
+- **Browser-facing API hardening** — **CORS** vs **CSRF** when using cookies (`78-Spring-Boot-CORS-CSRF-and-Browser-Security.md`).
 
 ## All topics (numbered)
 
@@ -97,6 +99,9 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - [Spring Boot SSL Bundles](73-Spring-Boot-SSL-Bundles.md)
 - [Spring Boot ShedLock Distributed Scheduling](74-Spring-Boot-ShedLock-Distributed-Scheduling.md)
 - [Spring Boot MockMvc and WebMvcTest](75-Spring-Boot-MockMvc-and-WebMvcTest.md)
+- [Spring Boot Outbox Pattern](76-Spring-Boot-Outbox-Pattern.md)
+- [Spring Boot API Idempotency Keys](77-Spring-Boot-API-Idempotency-Keys.md)
+- [Spring Boot CORS CSRF and Browser Security](78-Spring-Boot-CORS-CSRF-and-Browser-Security.md)
 
 ## Related material
 

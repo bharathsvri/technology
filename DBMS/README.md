@@ -153,6 +153,17 @@ This documentation provides comprehensive coverage of all major database concept
     - Synonyms for stable object aliases
     - Cross-database queries and linked-server caution
 
+26. **[26_Window_Functions_SQL_Server.md](26_Window_Functions_SQL_Server.md)**
+    - `OVER`, `PARTITION BY`, ranking and analytic functions
+    - Running totals and performance considerations
+
+27. **[27_Common_Table_Expressions_CTEs.md](27_Common_Table_Expressions_CTEs.md)**
+    - Readable subqueries; recursive hierarchies with `MAXRECURSION`
+
+28. **[28_Isolation_Levels_and_Read_Phenomena.md](28_Isolation_Levels_and_Read_Phenomena.md)**
+    - Dirty / non-repeatable / phantom reads vs isolation levels
+    - Snapshot and locking trade-offs in SQL Server
+
 ## Quick Reference
 
 ### Stored Procedures

@@ -26,6 +26,9 @@ These notes are written for **interview revision**: each topic includes **trade-
 18. [Custom Directives](18-Custom-Directives.md)
 19. [Plugins](19-Plugins.md)
 20. [Vite and Tooling](20-Vite-and-Tooling.md)
+21. [Vue Devtools Volar and defineModel](21-Vue-Devtools-Volar-and-defineModel.md)
+22. [Vue SSR and Nuxt Overview](22-Vue-SSR-and-Nuxt-Overview.md)
+23. [Vue Testing VTU and Async Patterns](23-Vue-Testing-VTU-and-Async-Patterns.md)
 
 ## Related
 

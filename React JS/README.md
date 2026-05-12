@@ -26,6 +26,9 @@
 20. [Strict Mode](20-Strict-Mode.md)
 21. [Keys and Lists](21-Keys-and-Lists.md)
 22. [Composition Patterns](22-Composition-Patterns.md)
+23. [React Server Components Overview](23-React-Server-Components-Overview.md)
+24. [useLayoutEffect useImperativeHandle useId](24-useLayoutEffect-useImperativeHandle-useId.md)
+25. [Accessibility a11y in React](25-Accessibility-a11y-in-React.md)
 
 ## Related
 
