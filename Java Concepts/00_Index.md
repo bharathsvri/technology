@@ -137,6 +137,32 @@
 102. [TestNG](102_TestNG.md) - Advanced testing framework
 103. [Mockito Advanced](103_Mockito_Advanced.md) - Advanced mocking techniques
 
+## Language Releases and JVM Internals
+104. [Java Versions and New Features](104_Java_Versions_New_Features.md) - Summary from Java 8 through modern LTS features
+105. [JVM Architecture Deep Dive](105_JVM_Architecture_Deep_Dive.md) - Bytecode execution, class loading, runtime areas
+106. [Collections Architecture and Internal Working](106_Collections_Architecture_and_Internal_Working.md) - How core JDK collections behave internally
+
+## Build, Diagnostics, Security, and Testing
+107. [Gradle Build Tools](107_Gradle_Build_Tools.md) - Gradle essentials for Java projects
+108. [Java Flight Recorder and jcmd](108_Java_Flight_Recorder_and_JCMD.md) - Profiling production JVMs safely
+109. [GraalVM Native Image](109_GraalVM_Native_Image_Java.md) - Native executables and closed-world trade-offs
+110. [JUnit 5 Advanced Features](110_JUnit5_Advanced_Features.md) - Nested tests, parameterized tests, extensions
+111. [Secure Coding OWASP Focus](111_Secure_Coding_OWASP_Java_Focus.md) - OWASP-oriented Java and API practices
+112. [SLF4J MDC and Structured Logging](112_SLF4J_MDC_and_Structured_Logging.md) - Correlation IDs and structured logs
+
+## Object-Oriented Design, Tooling, and Advanced Concurrency
+113. [SOLID Principles](113_OOP_SOLID_Principles.md) - SRP through DIP for maintainable OO design
+114. [Java Memory Model](114_Java_Memory_Model.md) - Happens-before, volatile, synchronized visibility
+115. [JShell REPL](115_JShell_REPL.md) - Interactive Java shell for learning and API probes
+116. [Git Essentials for Java Developers](116_Git_Essentials_for_Java_Developers.md) - Branching, commits, ignores, CI hooks
+117. [Structured Concurrency](117_Structured_Concurrency_Java.md) - StructuredTaskScope and failure policies (Java 21+)
+
+## Modern APIs and Contracts (JDK 21–25+)
+118. [Scoped Values](118_Scoped_Values_Java.md) - Immutable scoped context vs ThreadLocal; finalized in JDK 25
+119. [Equals and hashCode Contract](119_Equals_HashCode_Contract.md) - Identity semantics for collections and persistence
+120. [Sequenced Collections](120_Sequenced_Collections_Java_21.md) - First/last/reversed views on ordered collections
+121. [Panama Foreign API Overview](121_Panama_Foreign_API_Overview.md) - Native interop and memory segments beyond JNI
+
 ## Learning Path
 
 ### Beginner
@@ -183,7 +209,7 @@
 - Memory Leak Prevention
 - Security
 - Testing (JUnit)
-- Build Tools (Maven)
+- Build Tools (Maven, Gradle)
 - Concurrency Patterns
 - Reactive Programming
 - JMX Monitoring
@@ -224,6 +250,13 @@
 - Apache HttpClient
 - TestNG
 - Mockito Advanced
+- Gradle Builds, JFR/jcmd Diagnostics, GraalVM Native Image
+- JUnit 5 Advanced, OWASP Secure Coding, MDC Structured Logging
+- Java Release Notes Summary, JVM and Collections Internals Deep Dives
+- SOLID Design Principles, Java Memory Model, JShell, Git Workflows
+- Structured Concurrency with StructuredTaskScope (Java 21+)
+- Scoped Values, Sequenced Collections, Panama FFM overview
+- Equals/hashCode contracts for robust domain models
 
 ## Quick Reference
 

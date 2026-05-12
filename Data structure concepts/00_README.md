@@ -46,6 +46,25 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 29. **[Manacher's Algorithm](29_Manacher_Algorithm.md)** - Longest palindromic substring in O(n)
 30. **[Advanced DP Patterns](30_Advanced_DP_Patterns.md)** - DP on Trees, Bitmask DP, Digit DP, Interval DP
 
+### Complexity, Selection, Caching, and Text Indexing
+
+31. **[Amortized Analysis and Master Theorem](31_Amortized_Analysis_and_Master_Theorem.md)** - Amortized bounds; divide-and-conquer recurrences
+32. **[Order Statistics (Quickselect)](32_Order_Statistics_Quick_Select.md)** - k-th element in expected linear time
+33. **[LRU Cache and System Design](33_LRU_Cache_System_Design.md)** - O(1) LRU with HashMap + doubly linked list; distributed cache notes
+34. **[Suffix Array Introduction](34_Suffix_Array_Intro.md)** - Suffix ordering, LCP array, construction sketches, applications
+
+35. **[Big-O, Big-Ω, and Big-Θ](35_Big_O_Omega_Theta_Complexity.md)** - Asymptotic upper, lower, and tight bounds; common growth classes
+
+36. **[B-Trees and B+ Trees](36_B_Trees_and_B_Plus_Trees.md)** - High fanout search trees; why databases use B+ trees for indexes
+
+37. **[Monotonic Stack](37_Monotonic_Stack.md)** - Next/previous greater/smaller element patterns in linear time
+
+38. **[Sweep Line Algorithm](38_Sweep_Line_Algorithm.md)** - Event sorting for intervals, overlaps, and geometry sketches
+
+39. **[Bloom Filter](39_Bloom_Filter.md)** - Probabilistic membership; space-efficient sets with false positives
+
+40. **[Binary Search on Answer](40_Binary_Search_on_Answer.md)** - Monotone feasibility predicates; optimization via binary search
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet

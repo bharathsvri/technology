@@ -105,6 +105,42 @@ This documentation provides comprehensive coverage of all major database concept
     - Encryption
     - Best practices
 
+15. **[15_Table_Partitioning.md](15_Table_Partitioning.md)**
+    - Partition functions and schemes
+    - Sliding windows and `SWITCH` patterns
+    - Query elimination and maintenance trade-offs
+    - Columnstore note for analytics workloads
+
+16. **[16_JSON_in_SQL_Server.md](16_JSON_in_SQL_Server.md)**
+    - `FOR JSON` shaping for APIs
+    - `OPENJSON` with explicit schemas
+    - `ISJSON` constraints and computed-column indexing
+
+17. **[17_Execution_Plans_and_Query_Store.md](17_Execution_Plans_and_Query_Store.md)**
+    - Reading estimated vs actual plans
+    - Statistics, parameter sniffing concepts
+    - Query Store for regressions and plan history
+
+18. **[18_Backup_and_Restore_SQL_Server.md](18_Backup_and_Restore_SQL_Server.md)**
+    - Full, differential, and transaction log backups
+    - Recovery models, point-in-time restore, verification with `CHECKSUM`
+
+19. **[19_Locking_Blocking_Deadlocks.md](19_Locking_Blocking_Deadlocks.md)**
+    - Lock modes, isolation interactions, blocking chains
+    - Deadlock detection (`1205`), diagnosing with DMVs and Extended Events
+
+20. **[20_MERGE_Statement_SQL_Server.md](20_MERGE_Statement_SQL_Server.md)**
+    - Upsert and sync patterns with `MERGE`
+    - Concurrency, triggers, and performance caveats
+
+21. **[21_Temporal_Tables_SQL_Server.md](21_Temporal_Tables_SQL_Server.md)**
+    - System-versioned tables and history stores
+    - `FOR SYSTEM_TIME AS OF` queries and retention planning
+
+22. **[22_Replication_and_HA_Overview.md](22_Replication_and_HA_Overview.md)**
+    - Log shipping, Always On AGs, FCIs, replication families
+    - Choosing HA vs DR strategies at a high level
+
 ## Quick Reference
 
 ### Stored Procedures

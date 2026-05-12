@@ -504,3 +504,6 @@ Spring Boot Exception Handling:
 - Log exceptions for debugging
 - Don't expose internal details in production
 
+## See also
+
+- [Problem Details (RFC 9457)](62-Spring-Boot-Problem-Details-RFC9457.md) for standardized HTTP error bodies with `ProblemDetail`.
