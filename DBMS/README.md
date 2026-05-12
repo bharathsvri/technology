@@ -141,6 +141,18 @@ This documentation provides comprehensive coverage of all major database concept
     - Log shipping, Always On AGs, FCIs, replication families
     - Choosing HA vs DR strategies at a high level
 
+23. **[23_SQL_Server_Agent_Jobs_and_Alerts.md](23_SQL_Server_Agent_Jobs_and_Alerts.md)**
+    - Jobs, steps, schedules, and operator alerts
+    - Permissions and failure monitoring in `msdb`
+
+24. **[24_Columnstore_Indexes_Overview.md](24_Columnstore_Indexes_Overview.md)**
+    - Column-oriented storage, batch mode concept
+    - When columnstore helps analytics vs OLTP trade-offs
+
+25. **[25_Synonyms_and_Cross_Database_References.md](25_Synonyms_and_Cross_Database_References.md)**
+    - Synonyms for stable object aliases
+    - Cross-database queries and linked-server caution
+
 ## Quick Reference
 
 ### Stored Procedures

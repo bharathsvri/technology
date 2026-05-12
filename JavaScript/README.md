@@ -1,0 +1,44 @@
+# JavaScript — Concepts Index
+
+**JavaScript (ECMAScript)** language fundamentals through modules, async, DOM, and tooling. For browser APIs and Node.js, see individual topics below.
+
+## Table of contents
+
+1. [Introduction and History](01-JavaScript-Introduction-and-History.md)
+2. [Variables: let, const, and var](02-Variables-let-const-and-var.md)
+3. [Data Types and Type Coercion](03-Data-Types-and-Type-Coercion.md)
+4. [Operators and Equality](04-Operators-and-Equality.md)
+5. [Control Flow](05-Control-Flow.md)
+6. [Functions and Parameters](06-Functions-and-Parameters.md)
+7. [Arrow Functions](07-Arrow-Functions.md)
+8. [Scope, Hoisting, and Closures](08-Scope-Hoisting-and-Closures.md)
+9. [The this Keyword](09-The-this-Keyword.md)
+10. [Prototypes and Classes](10-Prototypes-and-Classes.md)
+11. [ES Modules import and export](11-ES-Modules-import-and-export.md)
+12. [Arrays and Array Methods](12-Arrays-and-Array-Methods.md)
+13. [Objects, Destructuring, and Spread](13-Objects-Destructuring-and-Spread.md)
+14. [JSON](14-JSON.md)
+15. [Promises](15-Promises.md)
+16. [async and await](16-async-and-await.md)
+17. [Iterators and Generators](17-Iterators-and-Generators.md)
+18. [Error Handling](18-Error-Handling.md)
+19. [DOM Manipulation](19-DOM-Manipulation.md)
+20. [Events and Event Delegation](20-Events-and-Event-Delegation.md)
+21. [Fetch API and HTTP](21-Fetch-API-and-HTTP.md)
+22. [localStorage and sessionStorage](22-Web-Storage.md)
+23. [Regular Expressions](23-Regular-Expressions.md)
+24. [Map, Set, WeakMap, WeakSet](24-Map-Set-WeakMap-WeakSet.md)
+25. [Symbol and BigInt](25-Symbol-and-BigInt.md)
+26. [Strict Mode and TDZ](26-Strict-Mode-and-Temporal-Dead-Zone.md)
+27. [Timers and Scheduling](27-Timers-and-Scheduling.md)
+28. [Optional Chaining and Nullish Coalescing](28-Optional-Chaining-and-Nullish-Coalescing.md)
+29. [Design Patterns in JavaScript](29-Design-Patterns-in-JavaScript.md)
+30. [Node.js and npm Overview](30-Node-js-and-npm-Overview.md)
+31. [Modules Dynamic import](31-Dynamic-import.md)
+32. [Performance and Debugging Tips](32-Performance-and-Debugging-Tips.md)
+
+## Related in this repository
+
+- [TypeScript-oriented Angular docs](../Angular/README.md)
+- [React JS](../React%20JS/README.md)
+- [Vue.js](../VueJs/README.md)

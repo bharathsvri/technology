@@ -163,6 +163,13 @@
 120. [Sequenced Collections](120_Sequenced_Collections_Java_21.md) - First/last/reversed views on ordered collections
 121. [Panama Foreign API Overview](121_Panama_Foreign_API_Overview.md) - Native interop and memory segments beyond JNI
 
+## Libraries, Precision, TLS, and Advanced Streams
+122. [ServiceLoader and SPI Patterns](122_ServiceLoader_and_SPI_Patterns.md) - Pluggable implementations and META-INF services
+123. [try-with-resources and Suppressed Exceptions](123_Try_with_Resources_and_Suppressed_Exceptions.md) - AutoCloseable and exception chaining
+124. [BigDecimal Precision and RoundingMode](124_BigDecimal_Precision_Scale_and_RoundingMode.md) - Financial decimals without double surprises
+125. [TLS Keystores, keytool, and Truststores](125_TLS_Keystores_Keytool_and_Truststores.md) - PKCS12, keytool, server/client TLS basics
+126. [Stream Gatherers Overview](126_Stream_Gatherers_Overview.md) - Custom intermediate stream operations (JDK 24, JEP 485)
+
 ## Learning Path
 
 ### Beginner
@@ -257,6 +264,7 @@
 - Structured Concurrency with StructuredTaskScope (Java 21+)
 - Scoped Values, Sequenced Collections, Panama FFM overview
 - Equals/hashCode contracts for robust domain models
+- ServiceLoader SPI, try-with-resources, BigDecimal and TLS keystore basics, Stream Gatherers (JDK 24)
 
 ## Quick Reference
 

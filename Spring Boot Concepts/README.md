@@ -17,6 +17,8 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - **JdbcClient / Spring Data JDBC** for explicit SQL (`66-Spring-Boot-JdbcClient.md`, `67-Spring-Boot-Spring-Data-JDBC.md`).
 - **Declarative HTTP clients** (`68-Spring-Boot-HTTP-Interfaces.md`) and **Resilience4j** fault tolerance (`69-Spring-Boot-Resilience4j.md`).
 - **Liveness/readiness** through Actuator availability (`70-Spring-Boot-Availability-Probes.md`).
+- **Modular monolith** boundaries with Spring Modulith (`71-Spring-Boot-Spring-Modulith.md`).
+- **Declarative retries** with Spring Retry (`72-Spring-Boot-Spring-Retry.md`), **TLS bundles** (`73-Spring-Boot-SSL-Bundles.md`), **cluster-safe cron** with ShedLock (`74-Spring-Boot-ShedLock-Distributed-Scheduling.md`), and **slice MVC tests** (`75-Spring-Boot-MockMvc-and-WebMvcTest.md`).
 
 ## All topics (numbered)
 
@@ -90,8 +92,14 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - [Spring Boot HTTP Interfaces](68-Spring-Boot-HTTP-Interfaces.md)
 - [Spring Boot Resilience4j](69-Spring-Boot-Resilience4j.md)
 - [Spring Boot Availability Probes](70-Spring-Boot-Availability-Probes.md)
+- [Spring Boot Spring Modulith](71-Spring-Boot-Spring-Modulith.md)
+- [Spring Boot Spring Retry](72-Spring-Boot-Spring-Retry.md)
+- [Spring Boot SSL Bundles](73-Spring-Boot-SSL-Bundles.md)
+- [Spring Boot ShedLock Distributed Scheduling](74-Spring-Boot-ShedLock-Distributed-Scheduling.md)
+- [Spring Boot MockMvc and WebMvcTest](75-Spring-Boot-MockMvc-and-WebMvcTest.md)
 
 ## Related material
 
+- **Spring Framework (non-Boot)**: [Spring](../Spring/README.md)
 - Java fundamentals and libraries: `../Java Concepts/00_Index.md`
 - SQL Server database topics: `../DBMS/README.md`

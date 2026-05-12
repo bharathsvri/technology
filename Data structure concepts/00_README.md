@@ -65,6 +65,14 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 
 40. **[Binary Search on Answer](40_Binary_Search_on_Answer.md)** - Monotone feasibility predicates; optimization via binary search
 
+41. **[Eulerian Path and Circuit](41_Eulerian_Path_and_Circuit.md)** - Edge-disjoint trails; Hierholzer’s algorithm sketch
+
+42. **[Matrix Exponentiation](42_Matrix_Exponentiation.md)** - Fast linear recurrences and walk counts via binary powering
+
+43. **[Merging Intervals and Line Sweep](43_Merging_Intervals_and_Line_Sweep.md)** - Union, gaps, and overlap patterns
+
+44. **[Bit Trie (XOR Maximum)](44_Bit_Trie_XOR_Maximum.md)** - Binary trie for max XOR pairs and variants
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet
