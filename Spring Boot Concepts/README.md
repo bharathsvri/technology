@@ -26,6 +26,10 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - **Validation groups & custom constraints** (`85-Spring-Boot-Bean-Validation-Groups-and-Custom-Constraints.md`), **`@ConfigurationProperties` relaxed binding** (`86-Spring-Boot-ConfigurationProperties-Relaxed-Binding.md`), and **Actuator health groups for K8s probes** (`87-Spring-Boot-Health-Groups-and-Kubernetes-Probes.md`).
 - **Flyway operational hygiene** (`88-Spring-Boot-Flyway-Baseline-Repair-and-Out-of-Order.md`), **custom Micrometer metrics** (`89-Spring-Boot-Custom-Micrometer-Metrics.md`), and **build/git info** on Actuator (`90-Spring-Boot-Build-and-Git-Info-Actuator.md`).
 - **JPA fetch planning** (`91-Spring-Boot-JPA-N-plus-One-and-EntityGraph.md`), **WebClient** `retrieve` vs `exchangeToMono` (`92-Spring-Boot-WebClient-retrieve-vs-exchangeToMono.md`), and **management endpoint security** (`93-Spring-Boot-Management-Context-Path-and-Security.md`).
+- **Reactive SQL** with **R2DBC** when WebFlux stacks need relational I/O without blocking JDBC (`94-Spring-Boot-R2DBC-Reactive-SQL.md`).
+- **Test-driven HTTP documentation** with **Spring REST Docs** alongside or instead of pure OpenAPI (`95-Spring-Boot-Spring-REST-Docs.md`).
+- **Distributed HTTP sessions** for scaled cookie-based apps via **Spring Session** (`96-Spring-Boot-Spring-Session-Distributed-Sessions.md`).
+- **Deployment packaging** trade-offs between **executable JAR** and **WAR** on external servlet containers (`97-Spring-Boot-JAR-vs-WAR-Deployment-Overview.md`).
 
 ## All topics (numbered)
 
@@ -122,6 +126,10 @@ This folder collects practical Spring Boot topics aligned with **modern producti
 - [Spring Boot JPA N plus One and EntityGraph](91-Spring-Boot-JPA-N-plus-One-and-EntityGraph.md)
 - [Spring Boot WebClient retrieve vs exchangeToMono](92-Spring-Boot-WebClient-retrieve-vs-exchangeToMono.md)
 - [Spring Boot Management Context Path and Security](93-Spring-Boot-Management-Context-Path-and-Security.md)
+- [Spring Boot R2DBC Reactive SQL](94-Spring-Boot-R2DBC-Reactive-SQL.md)
+- [Spring Boot Spring REST Docs](95-Spring-Boot-Spring-REST-Docs.md)
+- [Spring Boot Spring Session Distributed Sessions](96-Spring-Boot-Spring-Session-Distributed-Sessions.md)
+- [Spring Boot JAR vs WAR Deployment Overview](97-Spring-Boot-JAR-vs-WAR-Deployment-Overview.md)
 
 ## Related material
 

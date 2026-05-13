@@ -44,6 +44,7 @@
 38. [useOptimistic and useFormStatus React 19](38-useOptimistic-and-useFormStatus-React-19.md)
 39. [testing library user event vs fireEvent](39-testing-library-user-event-vs-fireEvent.md)
 40. [useSyncExternalStore and External Stores](40-useSyncExternalStore-and-External-Stores.md)
+41. [useActionState Forms and Server Actions Mindset](41-useActionState-Forms-and-Server-Actions-Mindset.md)
 
 ## Related
 

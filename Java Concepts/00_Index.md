@@ -187,6 +187,7 @@
 142. [Pattern Matching for switch Exhaustiveness](142_Pattern_Matching_for_switch_Exhaustiveness.md) - Sealed hierarchies and `case` patterns
 143. [Text Blocks Indentation and stripIndent](143_Text_Blocks_Indentation_and_stripIndent.md) - Readable embedded SQL/HTML
 144. [Charset StandardCharsets and Files readString](144_Charset_StandardCharsets_and_Files_readString.md) - Explicit UTF-8 at IO boundaries
+145. [Manual Dependency Injection and Service Locator Patterns](145_Manual_Dependency_Injection_and_Service_Locator_Patterns.md) - Composition roots, constructor injection, and when locators hurt
 
 ## Learning Path
 

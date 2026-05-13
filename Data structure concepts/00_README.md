@@ -109,6 +109,8 @@ Welcome to the comprehensive guide on Data Structures and Algorithms! This colle
 
 62. **[Small To Large Merging on Trees](62_Small_To_Large_Merging_on_Trees.md)** - DSU-on-tree / merge smaller into larger maps
 
+63. **[Difference Array Range Updates and Prefix Sums](63_Difference_Array_Range_Updates_and_Prefix_Sums.md)** - O(1) range adds; reconstruct with a prefix scan; when to upgrade to Fenwick/segment trees
+
 ## 🎯 Quick Reference
 
 ### Time Complexity Cheat Sheet

@@ -44,6 +44,7 @@ These notes are written for **interview revision**: each topic includes **trade-
 36. [Vite import meta env and Modes](36-Vite-import-meta-env-and-Modes.md)
 37. [Vue Router scrollBehavior](37-Vue-Router-scrollBehavior.md)
 38. [useSlots and useAttrs in script setup](38-useSlots-and-useAttrs-in-script-setup.md)
+39. [Vue Fetch Patterns AbortController and Composable API Clients](39-Vue-Fetch-Patterns-AbortController-and-Composable-API-Clients.md)
 
 ## Related
 

@@ -54,6 +54,7 @@
 48. [SameSite Cookies and document cookie](48-SameSite-Cookies-and-document-cookie.md)
 49. [Symbol species and Well Known Symbols](49-Symbol-species-and-Well-Known-Symbols.md)
 50. [Content Security Policy Basics](50-Content-Security-Policy-Basics.md)
+51. [Iterator Helpers and array fromAsync](51-Iterator-Helpers-and-Array-fromAsync.md)
 
 ## Related in this repository
 

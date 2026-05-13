@@ -146,6 +146,8 @@ public class UserService {
 
 ## Session Management
 
+For a dedicated guide to **horizontal scaling, cookie security, and store choices** (Redis, JDBC, Mongo), see `96-Spring-Boot-Spring-Session-Distributed-Sessions.md`.
+
 ### Spring Session with Redis
 
 #### Add Dependency

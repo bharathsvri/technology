@@ -15,6 +15,7 @@ Short, interview-oriented notes for **written and spoken** communication in soft
 
 ## Feedback, review, and collaboration
 
+- [Mentoring and Onboarding Junior Engineers](Mentoring_and_Onboarding_Junior_Engineers.md)
 - [Giving and Receiving Feedback](Giving_and_Receiving_Feedback.md)
 - [Code Review and Pull Request Etiquette](Code_Review_and_Pull_Request_Etiquette.md)
 - [Pair Programming and Mobbing](Pair_Programming_and_Mobbing.md)

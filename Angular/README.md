@@ -97,6 +97,7 @@
 67. [LiveAnnouncer and aria-live Regions](67-LiveAnnouncer-and-aria-live-Regions.md)
 68. [fileReplacements and Environment Builds](68-fileReplacements-and-Environment-Builds.md)
 69. [NgTemplateOutlet and Template Context](69-NgTemplateOutlet-and-Template-Context.md)
+70. [Angular resource httpResource and Signal Async Data](70-Angular-resource-httpResource-and-Signal-Async-Data.md)
 
 ## Related
 

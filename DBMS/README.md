@@ -209,6 +209,9 @@ This documentation provides comprehensive coverage of all major database concept
 43. **[43_Statistics_UPDATE_and_Auto_Update.md](43_Statistics_UPDATE_and_Auto_Update.md)**
     - `UPDATE STATISTICS`, sampling, and plan quality
 
+44. **[44_Full_Text_Search_CONTAINS_FREETEXT_SQL_Server.md](44_Full_Text_Search_CONTAINS_FREETEXT_SQL_Server.md)**
+    - Full-text indexes; `CONTAINS` vs `FREETEXT`; precision vs natural-language ranking
+
 ## Quick Reference
 
 ### Stored Procedures

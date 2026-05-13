@@ -48,6 +48,7 @@ This folder is a **deeper conceptual guide** to Spring Framework (IoC, MVC, WebF
 42. [Spring ResourceDatabasePopulator and EmbeddedDatabaseBuilder](42-Spring-ResourceDatabasePopulator-and-EmbeddedDatabaseBuilder.md)
 43. [Spring MVC DeferredResult and Callable](43-Spring-MVC-DeferredResult-and-Callable.md)
 44. [Spring Converter ConverterFactory and FormatterRegistry](44-Spring-Converter-ConverterFactory-and-FormatterRegistry.md)
+45. [Spring MessageSource LocaleResolver and Web i18n](45-Spring-MessageSource-LocaleResolver-and-Web-i18n.md)
 
 ## Related material in this repository
 
